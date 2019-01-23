@@ -1,0 +1,6 @@
+var i, j;
+begin
+  i := -1;
+  if a >= b && (! a < (b - 1)) || a * 3 = 5 then c := c + 1;
+  j := i + 1;
+end.
