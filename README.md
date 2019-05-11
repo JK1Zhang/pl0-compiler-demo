@@ -31,23 +31,3 @@ make
 ```
 
 Done!
-
-## SYNCHRONIZING FORKS
-Forking of a repository cannot be automatically synced. When synchronization is required, follow:
-
-1. First make sure you have a local repository. If not, clone your fork.
-2. Add one more remote address with:
-```
-git remote add upstream ssh://git@202.38.79.111:33126/staff/pl0compiler.git
-```
-Here, `upstream` is another remote repository address.
-3. Now merge changes with:
-```
-git pull upstream master
-```
-4. If an immediate sync is needed for the forked remote repository, just use push:
-```
-git push origin master
-```
-
-Now it's OK!
